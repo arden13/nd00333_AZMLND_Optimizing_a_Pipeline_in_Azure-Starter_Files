@@ -49,9 +49,9 @@ def clean_data(data):
 
     
 
-# x, y = clean_data(ds)
+x, y = clean_data(ds)
 
-# x_train, x_test, y_train, y_test = train_test_split((x,y))
+x_train, x_test, y_train, y_test = train_test_split(x,y)
 
 # ### YOUR CODE HERE ###a
 
